@@ -1,37 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Link to the same pages</title>
-	<meta charset="utf-8">
+<meta charset="utf-8">
+<title>Anatomy of a CSS Rule</title>
+<style>
+p {
+  color: blue;
+  font-size: 20px;
+  width: 200px;
+  text-align: left;
+}
+
+h1 {
+  color: green;
+  font-size: 36px;
+  text-align: center;
+}
+</style>
 </head>
-
 <body>
-	<h1 id="top">This is a page that has link to its own section</h1>
-	<section>
-	<ul>
-		<li><a href="#A">Section A</a></li>
-		<li><a href="#B">Section B</a></li>
-		<li><a href="#C">Section C</a></li>
-	</ul>
-	</section>
-
-
-	<section id="A">
-		<h3>Section A</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dignissimos aut quasi quibusdam aspernatur possimus officia nulla consectetur velit! At, asperiores dolorem. Et iure assumenda, repudiandae laudantium, voluptatibus ex dignissimos, eum quaerat ducimus cupiditate corporis totam. Illo, alias voluptatem accusamus ut natus consequuntur quis laboriosam doloribus porro vero assumenda quo temporibus quos quam quisquam, libero quod, itaque eius sit ducimus totam iste possimus architecto debitis? Commodi ut minima maiores consequuntur voluptates unde deleniti error vero tempora, eligendi blanditiis, deserunt aliquam nobis porro dolores tenetur amet eius! Aspernatur, vitae. Suscipit, dolores quos doloribus. Velit repudiandae provident a, in ad id aspernatur dolor ratione eos placeat, ex temporibus ipsum eligendi sequi reprehenderit cupiditate perferendis eaque, explicabo blanditiis nemo dolorem aperiam minima deleniti. Tempore, rem, quam? Totam non reiciendis amet, at reprehenderit inventore, adipisci nesciunt itaque dolorum asperiores, ducimus corrupti quam impedit quaerat autem quod officia tempora. Itaque dicta deleniti fugit, laudantium rerum sint consectetur asperiores, quia veritatis dignissimos esse in nesciunt distinctio facere iure facilis voluptatibus placeat voluptate voluptatum expedita animi a veniam nulla ea. Enim aliquid, non. Necessitatibus nam fugiat autem quae qui quam consequatur repudiandae quidem ipsam impedit distinctio, sequi doloribus, quaerat quod ab maxime. Harum facilis sed commodi reprehenderit?</p>
-  </section>
-
-  <section id="B">
-		<h3>Section B</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dignissimos aut quasi quibusdam aspernatur possimus officia nulla consectetur velit! At, asperiores dolorem. Et iure assumenda, repudiandae laudantium, voluptatibus ex dignissimos, eum quaerat ducimus cupiditate corporis totam. Illo, alias voluptatem accusamus ut natus consequuntur quis laboriosam doloribus porro vero assumenda quo temporibus quos quam quisquam, libero quod, itaque eius sit ducimus totam iste possimus architecto debitis? Commodi ut minima maiores consequuntur voluptates unde deleniti error vero tempora, eligendi blanditiis, deserunt aliquam nobis porro dolores tenetur amet eius! Aspernatur, vitae. Suscipit, dolores quos doloribus. Velit repudiandae provident a, in ad id aspernatur dolor ratione eos placeat, ex temporibus ipsum eligendi sequi reprehenderit cupiditate perferendis eaque, explicabo blanditiis nemo dolorem aperiam minima deleniti. Tempore, rem, quam? Totam non reiciendis amet, at reprehenderit inventore, adipisci nesciunt itaque dolorum asperiores, ducimus corrupti quam impedit quaerat autem quod officia tempora. Itaque dicta deleniti fugit, laudantium rerum sint consectetur asperiores, quia veritatis dignissimos esse in nesciunt distinctio facere iure facilis voluptatibus placeat voluptate voluptatum expedita animi a veniam nulla ea. Enim aliquid, non. Necessitatibus nam fugiat autem quae qui quam consequatur repudiandae quidem ipsam impedit distinctio, sequi doloribus, quaerat quod ab maxime. Harum facilis sed commodi reprehenderit?</p>
-  </section>
-
-  <section id="C">
-		<h3>Section C</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dignissimos aut quasi quibusdam aspernatur possimus officia nulla consectetur velit! At, asperiores dolorem. Et iure assumenda, repudiandae laudantium, voluptatibus ex dignissimos, eum quaerat ducimus cupiditate corporis totam. Illo, alias voluptatem accusamus ut natus consequuntur quis laboriosam doloribus porro vero assumenda quo temporibus quos quam quisquam, libero quod, itaque eius sit ducimus totam iste possimus architecto debitis? Commodi ut minima maiores consequuntur voluptates unde deleniti error vero tempora, eligendi blanditiis, deserunt aliquam nobis porro dolores tenetur amet eius! Aspernatur, vitae. Suscipit, dolores quos doloribus. Velit repudiandae provident a, in ad id aspernatur dolor ratione eos placeat, ex temporibus ipsum eligendi sequi reprehenderit cupiditate perferendis eaque, explicabo blanditiis nemo dolorem aperiam minima deleniti. Tempore, rem, quam? Totam non reiciendis amet, at reprehenderit inventore, adipisci nesciunt itaque dolorum asperiores, ducimus corrupti quam impedit quaerat autem quod officia tempora. Itaque dicta deleniti fugit, laudantium rerum sint consectetur asperiores, quia veritatis dignissimos esse in nesciunt distinctio facere iure facilis voluptatibus placeat voluptate voluptatum expedita animi a veniam nulla ea. Enim aliquid, non. Necessitatibus nam fugiat autem quae qui quam consequatur repudiandae quidem ipsam impedit distinctio, sequi doloribus, quaerat quod ab maxime. Harum facilis sed commodi reprehenderit?</p>
-  </section>
-	</section>
-
-   <a href="#top">Link to the top</a>
+<h1>Anatomy of a CSS Rule</h1>
+<h2>Subheading 1</h2>
+<p>CSS works by associating rules with HTML elements. These rules govern how the content of specified elements should be displayed. A CSS rule contains two parts: a selector and a declaration.</p>
+<h2>Subheading 2</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est maxime aperiam blanditiis reprehenderit voluptatem quia quas nesciunt amet atque temporibus quod harum sequi voluptate consequatur tenetur perferendis, cum ad! Eos.</p>
 </body>
 </html>
